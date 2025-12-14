@@ -21,12 +21,12 @@ export const ContractorInputForm: React.FC<ContractorInputFormProps> = ({
     setWorkingWeeks,
 }) => {
     return (
-        <div className="bg-white/80 backdrop-blur-md rounded-xl shadow-xl border border-purple-200 text-gray-900" style={{ padding: '2rem' }}>
+        <div className="bg-white/80 backdrop-blur-md rounded-xl shadow-xl border border-purple-200 text-gray-900 mb-4" style={{ padding: '2rem' }}>
             <h2 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                 Contractor
             </h2>
 
-            <div className="space-y-8">
+            <div className="space-y-10">
                 {/* Amount Input */}
                 <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Rate</label>

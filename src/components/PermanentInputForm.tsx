@@ -21,12 +21,12 @@ export const PermanentInputForm: React.FC<PermanentInputFormProps> = ({
     setSuperIncluded,
 }) => {
     return (
-        <div className="bg-white/80 backdrop-blur-md rounded-xl shadow-xl border border-blue-200 text-gray-900" style={{ padding: '2rem' }}>
+        <div className="bg-white/80 backdrop-blur-md rounded-xl shadow-xl border border-blue-200 text-gray-900 mb-4" style={{ padding: '2rem' }}>
             <h2 className="text-2xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                 Permanent Employee
             </h2>
 
-            <div className="space-y-8">
+            <div className="space-y-12">
                 {/* Amount Input */}
                 <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Salary / Rate</label>
